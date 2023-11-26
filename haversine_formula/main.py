@@ -8,7 +8,7 @@ class CoordinatesChecker():
 
     def check(self, request, format=None):
         """
-            Check if lat long exists in range. #user input is 12.7194995, 80.048614
+            Check if lat long exists in range. #user input is 12.7194995, 80.048614.
         """
         able_to_check_in = self.check_if_lat_long_exists_in_range(
             12.7194995, 80.048614)
